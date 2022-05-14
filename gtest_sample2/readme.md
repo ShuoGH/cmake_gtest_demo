@@ -1,4 +1,4 @@
-## 该工程下的GTest测试
+# 工程下的GTest测试
 
 根据该工程下gtest的部署，进行LLT测试的话，主要由以下四个步骤组成。
 
@@ -22,11 +22,11 @@
 
 
 
-##更简单的GTEST Demo
+## 更简单的GTEST Demo
 
 其实在这个目录的父目录下，以及同级目录下，有更简单的gtest的调用，但是那个因为需要构建cmake工程的时候fetch github下的googletest的repo，所以才又有了这个工程的尝试。
 
-通过fetch的方式构建gtest测试的，可以查看`../CMakeLists.txt`以及`../sample1/CMakeLists.txt`的内容组织。
+通过fetch的方式构建gtest测试的，可以查看`../gtest_demo/CMakeLists.txt`以及`../sample1/CMakeLists.txt`的内容组织。
 
 调用方式：
 

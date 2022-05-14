@@ -1,8 +1,10 @@
-#基于gtest和cmake的demo
+# 基于gtest和cmake的demo
 
 gtest的代码主要是基于googletest的repo中的sample进行的测试。
 
 结合cmake进行的工程小实践。
+
+
 
 ## 1. gtest_demo
 
@@ -22,6 +24,8 @@ gtest的代码主要是基于googletest的repo中的sample进行的测试。
 
 **Reference**: [Quickstart: Building with CMake](https://google.github.io/googletest/quickstart-cmake.html)
 
+
+
 ## 2. gtest_sample2
 
 使用的是工程化的方式，没有采取FetchContent的方式，而是通过将googletest的代码嵌入代码目录中的方式来进行的。主要参考的是这篇[博客](https://raymii.org/s/tutorials/Cpp_project_setup_with_cmake_and_unit_tests.html )。
@@ -40,6 +44,8 @@ gtest的代码主要是基于googletest的repo中的sample进行的测试。
 
 **Reference**：[C++ project setup with CMake & unit tests (google test)](https://raymii.org/s/tutorials/Cpp_project_setup_with_cmake_and_unit_tests.html)
 
+
+
 ## 3. gtest_sample2_dylib
 
 与上面gtest_sample2不一样的是，这个用于测试的对象不是源代码，而是已经编译生成的so文件。CMakeLists.txt文件有对应的修改。
@@ -56,7 +62,7 @@ gtest的代码主要是基于googletest的repo中的sample进行的测试。
 
 
 
-##Reference：
+## Reference：
 
 1. 很有用的blog，工程框架主要是借鉴这篇blog中的内容 https://raymii.org/s/tutorials/Cpp_project_setup_with_cmake_and_unit_tests.html 
 2. googletest的代码仓 https://github.com/google/googletest 
